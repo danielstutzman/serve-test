@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/danielstutzman/rack-piwik.git
+  revision: ffa4b29d08195009f304a2207682aebfe67d4071
+  specs:
+    rack-piwik (0.0.1)
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -34,4 +41,5 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack (~> 4.0.0)
+  rack-piwik!
   serve
