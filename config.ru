@@ -8,7 +8,6 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-require './memoizable.rb'
 require 'serve'
 require 'serve/rack'
 require 'action_view' # for Rails form helpers
